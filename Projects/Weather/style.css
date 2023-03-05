@@ -1,0 +1,37 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-top: 8%;
+  width: calc();
+  height: calc();
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+.search {
+  width: 500px;
+}
+.color {
+  color: rgb(141, 2, 32);
+  font-weight: 1000;
+}
+
+.title {
+  color: rgb(141, 2, 32);
+}
+.items {
+  color: rgb(0, 67, 122);
+}
+.items:hover {
+  background-color: brown;
+}
+
+#temp2 {
+  color: red;
+}
+#wind_speed2 {
+  color: red;
+}
+#humidity2 {
+  color: red;
+}
