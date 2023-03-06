@@ -143,3 +143,14 @@ let PMarks = 40;
 let result = PMarks > 39 ? "Pass" : "Fail";
 
 console.log(result);
+
+// ?? returns the first argument if it’s not null/undefined. Otherwise, the second one.
+// let user1;
+
+alert(user1 ?? "Anonymous"); // Anonymous (user is undefined)
+
+// Here’s the example with user assigned to a name:
+
+let user = "John";
+
+alert(user ?? "Anonymous");
